@@ -592,6 +592,19 @@ summary {
 	font-size: 1.25rem;
 }
 
+.p-mv {
+	position: relative;
+}
+
+.p-mv::after {
+	content: "";
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: calc(283 / 375);
+}
+
 .p-test {
 	color: red;
 	font-size: 1.25rem;

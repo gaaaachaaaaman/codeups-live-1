@@ -1,0 +1,12 @@
+.p-mv {
+  position: relative;
+}
+
+.p-mv::after {
+  position: absolute;
+  content: "";
+  height: 100vh;
+  width: calc(283 / 375);
+  top: 0;
+  right: 0;
+}

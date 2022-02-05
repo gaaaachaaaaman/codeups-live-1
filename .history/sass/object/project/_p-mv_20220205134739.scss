@@ -1,0 +1,42 @@
+.p-mv {
+  position: relative;
+}
+
+.p-mv::before {
+  position: absolute;
+  content: "";
+  height: 87vh;
+  width: 76.5%;
+  background: url(ここに画像);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  z-index: -9;
+}
+
+.p-mv::after {
+  position: absolute;
+  content: "";
+  height: 100vh;
+  width: calc(283 / 375);
+  background: #222;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
+
+.p-mv::before {
+  position: absolute;
+  content: "";
+  height: 87vh;
+  width: 76.5%;
+  background: url(ここに画像);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  z-index: -9;
+}

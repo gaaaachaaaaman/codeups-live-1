@@ -2,7 +2,7 @@
 
 <div class="l-mv p-mv">
   <div class="p-mv__img">
-    <img src="<?php echo get_template_directory_url() ?>/assets/img/common/img_top-sp.jpg" alt="">
+    <img src="<?php echo get_template_directory_url() ?>/assets/img/" alt="">
   </div>
 
 </div>

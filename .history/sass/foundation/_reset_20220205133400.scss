@@ -37,11 +37,11 @@ body {
 	font-family: $font-family-base;
 	font-size: $font-size-base;
 	font-weight: $font-weight-base;
-	color: $cr-txt;
+	color: $cr;
 	line-height: $lh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: $cr-bg;
+	background: $background;
 	overflow-wrap: break-word;
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
